@@ -1,0 +1,120 @@
+
+body {
+    background-color: gray;
+    }
+    
+    
+      .content-main {
+        width: 960px;
+        /* height: 1000px; */
+        position: relative;
+        background-color: purple;
+        left: 17%;
+        border-style: ridge;
+        border-width: 5px;
+        margin-top: 20px;
+        padding: 10px;
+      }
+    
+      .Content2 {
+      width: 960px;
+      height: 100%;
+      }
+    
+    
+    #me {
+    float: left;
+    border-style: ridge;
+    border-width: 5px;
+    }
+    
+    #description {
+    left: 5px;
+    float: right;
+    /* padding: 5px; */
+    border-style: ridge;
+    border-width: 5px;
+    height: 100%;
+    }
+    
+    #description p {
+    
+      padding: 10px;
+    }
+    
+        ul {
+          list-style-type: none;
+          margin: 0;
+          border-style: ridge;
+          border-width: 5px;
+          padding: 0;
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        li {
+          float: left;
+        }
+        
+        li a {
+          display: block;
+          color: white;
+          text-align: center;
+          border-style: ridge;
+          border-width: 5px;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+        
+        li a:hover:not(.active) {
+          background-color: #111;
+        }
+        
+        .active {
+          background-color: purple;
+          color: black;
+        }
+    
+    
+    
+    
+        .footer {
+          position: fixed;
+          left: 0;
+          bottom: 0;
+          width: 100%;
+          background-color: red;
+          color: white;
+          text-align: center;
+        }
+
+        
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

@@ -1,0 +1,91 @@
+body {
+background-color: gray;
+}
+
+
+  .content-main {
+    width: 960px;
+    /* height: 1000px; */
+    position: relative;
+    background-color: purple;
+    left: 17%;
+    border-style: ridge;
+    border-width: 5px;
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .Content2 {
+  width: 960px;
+  height: 100%;
+  }
+
+
+#me {
+float: left;
+border-style: ridge;
+border-width: 5px;
+}
+
+#description {
+left: 5px;
+float: right;
+/* padding: 5px; */
+border-style: ridge;
+border-width: 5px;
+height: 100%;
+}
+
+#description p {
+
+  padding: 10px;
+}
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      border-style: ridge;
+      border-width: 5px;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    li {
+      float: left;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      border-style: ridge;
+      border-width: 5px;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+    
+    li a:hover:not(.active) {
+      background-color: #111;
+    }
+    
+    .active {
+      background-color: purple;
+      color: black;
+    }
+
+
+
+
+    .footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: purple;
+      color: white;
+      text-align: center;
+      border-style: ridge;
+      border-width: 5px;
+    }
+ 

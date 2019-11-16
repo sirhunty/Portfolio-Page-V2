@@ -1,0 +1,27 @@
+body {
+    background-color: gray;
+    }
+    
+    h1 {
+
+text-size-adjust: 40px;
+
+    }
+      .content-main {
+        width: 960px;
+        /* height: 1000px; */
+        position: relative;
+        background-color: purple;
+        left: 17%;
+        border-style: ridge;
+        border-width: 5px;
+        margin-top: 20px;
+        padding: 10px;
+        text-align: center;
+      }
+    
+    
+    #me {
+    border-style: ridge;
+    border-width: 5px;
+    }
