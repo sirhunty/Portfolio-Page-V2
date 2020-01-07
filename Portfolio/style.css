@@ -43,17 +43,6 @@ li a:hover:not(.active) {
   background-color: purple;
 }
 
-.me {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.display-4 {
-text-align: center;
-}
-
 .footer {
   background-color: purple;
   padding: 25px;

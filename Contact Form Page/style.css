@@ -1,92 +1,52 @@
 
 body {
-    background-color: gray;
-    }
-    
-    
-      .content-main {
-        width: 960px;
-        /* height: 1000px; */
-        position: relative;
-        background-color: purple;
-        left: 17%;
-        border-style: ridge;
-        border-width: 5px;
-        margin-top: 20px;
-        padding: 10px;
-      }
-    
-      .Content2 {
-      width: 960px;
-      height: 100%;
-      }
-    
-    
-    #me {
-    float: left;
-    border-style: ridge;
-    border-width: 5px;
-    }
-    
-    #description {
-    left: 5px;
-    float: right;
-    /* padding: 5px; */
-    border-style: ridge;
-    border-width: 5px;
-    height: 100%;
-    }
-    
-    #description p {
-    
-      padding: 10px;
-    }
+  padding-top: 100px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+
     
         ul {
           list-style-type: none;
           margin: 0;
-          border-style: ridge;
+          border-style: solid;
           border-width: 5px;
           padding: 0;
           overflow: hidden;
-          background-color: #333;
+          background-color: white;
+          border-color: black;
         }
         
         li {
           float: left;
+          color: black;
         }
         
         li a {
           display: block;
-          color: white;
+          color: black;
           text-align: center;
-          border-style: ridge;
+          border-style: solid;
           border-width: 5px;
           padding: 14px 16px;
           text-decoration: none;
+          border-color:black;
+        }
+
+        .active {
+          background-color: #45a049;
+        
         }
         
         li a:hover:not(.active) {
-          background-color: #111;
+          background-color: purple;
         }
         
-        .active {
-          background-color: purple;
-          color: black;
-        }
-    
-    
-    
-    
-        .footer {
-          position: fixed;
-          left: 0;
-          bottom: 0;
-          width: 100%;
-          background-color: red;
-          color: white;
-          text-align: center;
-        }
+        
 
         
 input[type=text], select, textarea {
@@ -110,11 +70,17 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: purple;
 }
 
 .container {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+.footer {
+  background-color: purple;
+  padding: 25px;
+  text-align: center;
 }

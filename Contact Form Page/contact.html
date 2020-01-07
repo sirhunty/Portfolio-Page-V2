@@ -19,12 +19,12 @@
   <link href="navbar-fixed-top.css" rel="stylesheet">
   <link href="sticky-footer.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
 
+  </style>
 </head>
 
-
 <body>
-
   <header>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03"
@@ -36,19 +36,19 @@
       <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="About Me Page/about-me.html" tabindex="-1" aria-disabled="true">About Me</a>
+            <a class="nav-link" href="../About Me Page/about-me.html" tabindex="-1" aria-disabled="true">About Me</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://www.coroflot.com/sirhuntydesigns" target="_blank">Art Page</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Portfolio/portfolio.html" tabindex="-1" aria-disabled="true">Web Portfolio</a>
+            <a class="nav-link" href="../Portfolio/portfolio.html" tabindex="-1" aria-disabled="true">Web Portfolio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="Contact Form Page/contact.html" tabindex="-1" aria-disabled="true">Contact</a>
+            <a class="nav-link" href="../Contact Form Page/contact.html" tabindex="-1" aria-disabled="true">Contact</a>
           </li>
         </ul>
         <form class="form-inline my-2 my-lg-0">
@@ -61,44 +61,41 @@
 
 
 
-
-
   <div class="container">
     <div class="row">
-      <div class="col-lg-12">
-
-
-        <div class="jumbotron jumbotron-fluid">
-          <div class="container">
-            <h1 class="display-4">Christopher Matthews</h1>
-            <h1 class="display-5">Web Design Portfolio</h1>
-            <hr class="my-4">
-            <p class="lead">Thanks for visiting my portfolio page. As JC would say.. witness me!</p>
-            <img class="me" src="pictures/me2.jpg" alt="Me!" width="480px" height="480px">
-          </div>
-        </div>
-
-
+      <div class="col-md-12">
+        <h3>Contact Form</h3>
       </div>
+    </div>
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="First name..">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Last name..">
+
+        <label for="email">Email</label>
+        <input type="text" id="email" name="email" placeholder="name@example.com">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+        <input type="submit" value="Submit">
+      </form>
     </div>
   </div>
 
 
 
+
   <footer class="footer">
       <div class="container">
-        <span class="text-muted">Sticky footer.</span>
+        <span class="text-muted">Sticky footer</span>
       </div>
     </footer>
 
 
-
-
-
-
-  </div>
 </body>
-
-
 
 </html>
