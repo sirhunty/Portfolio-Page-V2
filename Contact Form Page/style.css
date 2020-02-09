@@ -17,7 +17,7 @@ body {
           border-width: 5px;
           padding: 0;
           overflow: hidden;
-          background-color: white;
+          background-color: black;
           border-color: black;
         }
         
@@ -83,4 +83,8 @@ input[type=submit]:hover {
   background-color: purple;
   padding: 25px;
   text-align: center;
+}
+
+.fa {
+  color: black;
 }

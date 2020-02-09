@@ -14,7 +14,7 @@ ul {
   border-width: 5px;
   padding: 0;
   overflow: hidden;
-  background-color: white;
+  background-color: black;
   border-color: black;
 }
 
@@ -57,5 +57,21 @@ text-align: center;
 .footer {
   background-color: purple;
   padding: 25px;
+  text-align: center;
+}
+
+.fa {
+  color: black;
+}
+
+/* .me {
+  float: right;
+}
+
+.desc {
+  float: left;
+} */
+
+.aboutme {
   text-align: center;
 }
