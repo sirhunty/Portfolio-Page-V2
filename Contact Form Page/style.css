@@ -1,83 +1,58 @@
-
 body {
-  padding-top: 150px;
-  
+  padding-top: 100px;
+  background-color: black;
 }
 @media (max-width: 979px) {
   body {
-    padding-top: 0px;
+    padding-top: 50px;
   }
 }
 
-
-    
-        ul {
-          list-style-type: none;
-          margin: 0;
-          border-style: solid;
-          border-width: 5px;
-          padding: 0;
-          overflow: hidden;
-          background-color: black;
-          border-color: black;
-        }
-        
-        li {
-          float: left;
-          color: black;
-        }
-        
-        li a {
-          display: block;
-          color: black;
-          text-align: center;
-          border-style: solid;
-          border-width: 5px;
-          padding: 14px 16px;
-          text-decoration: none;
-          border-color:black;
-        }
-
-        .active {
-          background-color: #45a049;
-        
-        }
-        
-        li a:hover:not(.active) {
-          background-color: purple;
-        }
-        
-        
-
-        
-input[type=text], select, textarea {
-  width: 100%;
-  padding: 12px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  resize: vertical;
+ul {
+  list-style-type: none;
+  margin: 0;
+  border-style: solid;
+  border-width: 5px;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border-color: black;
 }
 
-input[type=submit] {
-  background-color: #4CAF50;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
+li {
+  float: left;
+  color: black;
 }
 
-input[type=submit]:hover {
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-color:black;
+}
+
+.active {
+  background-color: #0f39f1;
+
+}
+
+li a:hover:not(.active) {
   background-color: purple;
 }
 
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
+.me {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.display-4 {
+text-align: center;
 }
 
 .footer {
@@ -88,4 +63,20 @@ input[type=submit]:hover {
 
 .fa {
   color: black;
+}
+
+.aboutme {
+  text-align: center;
+}
+
+.desc {
+  padding-left: 150px;
+  padding-right: 150px;
+  text-indent: 35px;
+}
+
+#icons {
+  /* display: flex;
+  justify-content: right; */
+  text-align: right;
 }

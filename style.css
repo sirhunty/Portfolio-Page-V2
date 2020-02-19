@@ -1,77 +1,86 @@
 body {
-  padding-top: 150px;
-  
+  padding-top: 100px;
+  background-color: black;
 }
-
 @media (max-width: 979px) {
   body {
-    padding-top: 0px;
+    padding-top: 50px;
   }
 }
 
-
-
-.display-4 {
-    text-align: center;
+ul {
+  list-style-type: none;
+  margin: 0;
+  border-style: solid;
+  border-width: 5px;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+  border-color: black;
 }
-.display-5 {
-    text-align: center;
+
+li {
+  float: left;
+  color: black;
 }
-.lead {
-    text-align: center;
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-color:black;
+}
+
+.active {
+  background-color: #45a049;
+
+}
+
+li a:hover:not(.active) {
+  background-color: purple;
 }
 
 .me {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
-  
-  
-      
-          ul {
-            list-style-type: none;
-            margin: 0;
-            border-style: solid;
-            border-width: 5px;
-            padding: 0;
-            overflow: hidden;
-            background-color: black;
-            border-color: black;
-          }
-          
-          li {
-            float: left;
-            color: black;
-          }
-          
-          li a {
-            display: block;
-            color: black;
-            text-align: center;
-            border-style: solid;
-            border-width: 5px;
-            padding: 14px 16px;
-            text-decoration: none;
-            border-color:black;
-          }
-  
-          .active {
-            background-color: #45a049;
-          
-          }
-          
-          li a:hover:not(.active) {
-            background-color: purple;
-          }
 
-          .footer {
-            background-color: purple;
-            padding: 25px;
-            text-align: center;
-          }
+.display-4, .display-5, .lead {
+text-align: center;
+}
 
-          .fa {
-            color: black;
-          }
+.footer {
+  background-color: purple;
+  padding: 25px;
+  text-align: center;
+}
+
+.fa {
+  color: black;
+}
+
+.aboutme {
+  text-align: center;
+}
+
+.desc {
+  padding-left: 150px;
+  padding-right: 150px;
+  text-indent: 35px;
+}
+
+#icons {
+  /* display: flex;
+  justify-content: right; */
+  text-align: right;
+}
+
+.col-lg-4 {
+  padding-left: 50px;
+}
