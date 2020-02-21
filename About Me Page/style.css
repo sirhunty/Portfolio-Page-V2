@@ -34,12 +34,22 @@ body {
   body {
     padding-top: 50px;
   }
+  .desc {
+    padding-left: 150px;
+    padding-right: 150px;
+    text-indent: 35px;
+  }
 } 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   body {
     padding-top: 50px;
+  }
+  .desc {
+    padding-left: 150px;
+    padding-right: 150px;
+    text-indent: 35px;
   }
 }
 
