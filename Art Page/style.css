@@ -15,7 +15,7 @@ body {
   }
 
   .carousel{
-    max-width: 300px;
+    max-width: 100%;
     margin: 0 auto;
   }
 
@@ -28,7 +28,7 @@ body {
   }
 
   .carousel{
-    max-width: 300px;
+    max-width: 100%;
     margin: 0 auto;
   }
 
