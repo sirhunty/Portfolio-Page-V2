@@ -14,10 +14,10 @@ body {
     padding-top: 50px;
   }
 
-  .slider-size {
+  .carousel {
     height: auto;
 }
-  .slider-size > img {
+  .carousel > img {
      width: 80%;
 }
 
@@ -29,10 +29,10 @@ body {
     padding-top: 50px;
   }
 
-  .slider-size {
+  .carousel {
     height: auto;
 }
-  .slider-size > img {
+  .carousel > img {
      width: 80%;
 }
 
