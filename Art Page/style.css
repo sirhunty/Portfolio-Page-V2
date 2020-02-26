@@ -14,12 +14,12 @@ body {
     padding-top: 50px;
   }
 
-  .carousel {
-    height: auto;
-}
-  .carousel > img {
-     width: 80%;
-}
+  #img1{
+    height:600px !important;
+ }
+   #img2{
+    height:600px !important;
+ }
 
 }
 
@@ -29,12 +29,12 @@ body {
     padding-top: 50px;
   }
 
-  .carousel {
-    height: auto;
-}
-  .carousel > img {
-     width: 80%;
-}
+  #img1{
+    height:600px !important;
+ }
+   #img2{
+    height:600px !important;
+ }
 
 }
 
