@@ -14,14 +14,11 @@ body {
     padding-top: 50px;
   }
 
-  .carousel {
-    width: auto;
+  .slider-size {
     height: auto;
 }
-
-#videoPortfolio {
-  width: auto;
-  height: auto;
+  .slider-size > img {
+     width: 80%;
 }
 
 }
@@ -32,14 +29,11 @@ body {
     padding-top: 50px;
   }
 
-  .carousel {
-    width: auto;
+  .slider-size {
     height: auto;
 }
-
-#videoPortfolio {
-  width: auto;
-  height: auto;
+  .slider-size > img {
+     width: 80%;
 }
 
 }
