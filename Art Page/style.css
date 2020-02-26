@@ -13,6 +13,17 @@ body {
   body {
     padding-top: 50px;
   }
+
+  .carousel {
+    width: auto;
+    height: auto;
+}
+
+#videoPortfolio {
+  width: auto;
+  height: auto;
+}
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -20,6 +31,17 @@ body {
   body {
     padding-top: 50px;
   }
+
+  .carousel {
+    width: auto;
+    height: auto;
+}
+
+#videoPortfolio {
+  width: auto;
+  height: auto;
+}
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -51,6 +73,7 @@ body {
     padding-right: 150px;
     text-indent: 35px;
   }
+
 }
   
   ul {
