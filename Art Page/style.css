@@ -16,7 +16,11 @@ body {
 
   .carousel{
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0px;
+  }
+
+  .videoPortfolio {
+    max-width: 100%
   }
 
 }
@@ -29,7 +33,11 @@ body {
 
   .carousel{
     max-width: 100%;
-    margin: 0 auto;
+    margin: 0px;
+  }
+
+  .videoPortfolio {
+    max-width: 100%
   }
 
 }
